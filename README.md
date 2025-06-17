@@ -33,16 +33,7 @@ classDiagram
     Iphone --|> ReprodutorMusical
     Iphone --|> AparelhoTelefonico
     Iphone --|> NavegadorInternet    
-	class Iphone {
-        +tocar() void
-        +pausar() void
-        +ligar(numero: String) void
-        +selecionarMusica(musica: String) void
-        +atender() void
-        +iniciarCorreioVoz() void
-        +exibirPagina(url: String) void
-        +adicionarNovaAba() void
-        +atualizarPagina() void
+	class Iphone {        
     }
     class ReprodutorMusical{
       +tocar() void
